@@ -1,0 +1,16 @@
+# Entorno local y cachés
+.venv/
+.mplconfig/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Salidas de ejecución (se regeneran al correr el notebook)
+resultados/
+*_executed.ipynb
+report.log
+
+# Constructores del notebook (no forman parte de la entrega)
+_nb_cells/
+assemble_notebook.py
+build_notebook.py
